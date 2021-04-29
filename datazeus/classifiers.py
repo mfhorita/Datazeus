@@ -2,7 +2,6 @@
 # coding: utf-8
 
 import pandas as pd
-
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.linear_model import LogisticRegression
 
