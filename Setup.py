@@ -18,14 +18,16 @@ setup(
     long_description=long_description,
     long_description_content_type='text/markdown',
     url='https://github.com/mfhorita',
-    license='MIT',
+    license='MIT License',
     keywords='autotasks vba rpa msg pdf web scrapy sys',
     classifiers=[
-        'Natural Language :: Portuguese (Brazilian)',
+        'License :: Freeware',
+        'Programming Language :: Python',
         'Operating System :: OS Independent',
-        'Topic :: Software Development :: Internationalization',
-        'Topic :: Scientific/Engineering :: Physics'
-    ],
+        'Development Status :: 5 - Production/Stable',
+        'Natural Language :: Portuguese (Brazilian)',
+        'Intended Audience :: Developers',
+        'Topic :: Utilities'],
     install_requires=[
         'PyAutoGUI>=0.9.47',
         'beautifulsoup4>=4.8.0',
